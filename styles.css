@@ -65,10 +65,6 @@ select {
     font: inherit;
 }
 
-#flag {
-    border: 1px solid gray;
-}
-
 #converter {
     display: flex;
     flex-direction: row;
@@ -80,4 +76,8 @@ select {
 #converter>input {
     width: 100%;
     text-align: center;
+}
+
+#flag {
+    border: 1px solid gray;
 }
