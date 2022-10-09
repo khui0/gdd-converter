@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'MADE Avenue PERSONAL USE';
+    src: url('MADEAvenuePERSONALUSE-Regular.woff2') format('woff2'),
+        url('MADEAvenuePERSONALUSE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    color-scheme: dark;
+    --text-color: #ffffff;
+    --background-color: #000000;
+}
+
+html {
+    font-family: "MADE Avenue PERSONAL USE";
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    width: min(100%, 500px);
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+input,
+textarea,
+select {
+    border: none;
+    background-color: transparent;
+    font: inherit;
+}
+
+#flag {
+    border: 1px solid gray;
+}
+
+#converter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 50px;
+}
+
+#converter>input {
+    width: 100%;
+    text-align: center;
+}
